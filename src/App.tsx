@@ -1,5 +1,6 @@
 import './App.css';
 import { AppSidebar } from './components/global/app-sidebar';
+import ChartComponent from './components/global/chart';
 import { SidebarProvider, SidebarTrigger } from './components/ui/sidebar';
 
 function App() {
@@ -8,7 +9,8 @@ function App() {
       <AppSidebar />
       <main>
         <SidebarTrigger />
-        <h1>Hello World</h1>
+
+        <ChartComponent />
       </main>
     </SidebarProvider>
   );
